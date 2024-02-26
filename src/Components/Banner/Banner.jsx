@@ -32,16 +32,20 @@ const Banner = () => {
             className="mySwiper"
           >
             <SwiperSlide className="  bg-transparent ">
-              <div className=" min-h-screen  flex items-center lg:flex-row-reverse">
+              <div className=" min-h-screen  flex items-center gap-20 lg:flex-row-reverse">
                 <img
+                  style={{
+                    width: "60%",
+                    height: "50vh",
+                  }}
                   src="https://img.freepik.com/free-vector/half-tone-blue-abstract-background-with-text-space_1017-41428.jpg"
                   className=" rounded-lg shadow-2xl"
                 />
                 <div>
-                  <h1 className="text-5xl font-bold w-[320px] text-left">
+                  <h1 className="text-6xl font-bold w-[320px] text-left">
                     Discover Most Suitable Property
                   </h1>
-                  <p className="py-6 text-left text-[.9rem] w-[350px]">
+                  <p className="py-6 text-left text-[15px] w-[350px]">
                     Find a variety of properties that suit you very easilty
                     Forget all difficulties in finding a residence for you
                   </p>
@@ -49,16 +53,41 @@ const Banner = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide className="  bg-transparent ">
-              <div className=" min-h-screen  flex items-center lg:flex-row-reverse">
+              <div className=" min-h-screen gap-20 flex items-center lg:flex-row-reverse">
                 <img
+                  style={{
+                    width: "60%",
+                    height: "50vh",
+                  }}
                   src="https://t4.ftcdn.net/jpg/04/95/28/65/360_F_495286577_rpsT2Shmr6g81hOhGXALhxWOfx1vOQBa.jpg"
                   className=" rounded-lg shadow-2xl"
                 />
                 <div>
-                  <h1 className="text-5xl font-bold w-[320px] text-left">
+                  <h1 className="text-6xl font-bold w-[320px] text-left">
                     Discover Most Suitable Property
                   </h1>
-                  <p className="py-6 text-left text-[.9rem] w-[350px]">
+                  <p className="py-6 text-left text-[15px] w-[350px]">
+                    Find a variety of properties that suit you very easilty
+                    Forget all difficulties in finding a residence for you
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="  bg-transparent ">
+              <div className=" min-h-screen gap-20 flex items-center lg:flex-row-reverse">
+                <img
+                  style={{
+                    width: "60%",
+                    height: "50vh",
+                  }}
+                  src="https://img.freepik.com/free-vector/stylish-glowing-digital-red-lines-banner_1017-23964.jpg"
+                  className=" rounded-lg shadow-2xl"
+                />
+                <div>
+                  <h1 className="text-6xl font-bold w-[320px] text-left">
+                    Discover Most Suitable Property
+                  </h1>
+                  <p className="py-6 text-left text-[15px] w-[350px]">
                     Find a variety of properties that suit you very easilty
                     Forget all difficulties in finding a residence for you
                   </p>
