@@ -7,11 +7,13 @@ import Board_Member from "../../Components/Board_Member/Board_Member";
 
 const Home = () => {
   return (
-    <div className="w-[90%] mx-auto">
+    <div className="">
       <Banner />
-      <Services />
-      <Project />
-      <Board_Member />
+      <div className="w-[90%] mx-auto">
+        <Services />
+        <Project />
+        <Board_Member />
+      </div>
     </div>
   );
 };
